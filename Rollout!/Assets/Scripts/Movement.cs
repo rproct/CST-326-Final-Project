@@ -15,10 +15,16 @@ public class Movement : MonoBehaviour
 
     private void FixedUpdate()
     {
+        if (Input.GetKeyDown(KeyCode.Space))
+            speed /= 2;
+        else if (Input.GetKeyUp(KeyCode.Space))
+            speed *= 2;
+        
         float moveVert = Input.GetAxis("Vertical");
         
         Vector3 move = new Vector3(0f, 0f, moveVert);
         Vector3 camDir = Camera.current.transform.TransformDirection(move);
         rb.AddForce(camDir.normalized * speed);
     }
+    
 }

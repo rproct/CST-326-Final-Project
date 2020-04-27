@@ -61,7 +61,6 @@
      <Compile Include="Assets\Scripts\CameraMove.cs" />
      <Compile Include="Assets\Scripts\Movement.cs" />
      <Compile Include="Assets\Scripts\RotateChair.cs" />
-     <None Include="Assets\Legal\Fair Use.txt" />
  <Reference Include="Unity.Timeline.Editor">
  <HintPath>D:/CST-326-Final-Project/Rollout!/Library/ScriptAssemblies/Unity.Timeline.Editor.dll</HintPath>
  </Reference>

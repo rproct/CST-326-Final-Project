@@ -36,9 +36,9 @@
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
+        <option value="$PROJECT_DIR$/Assets/Scripts/Movement.cs" />
         <option value="$PROJECT_DIR$/Assets/Scripts/RotateChair.cs" />
         <option value="$PROJECT_DIR$/Assets/Scripts/CameraMove.cs" />
-        <option value="$PROJECT_DIR$/Assets/Scripts/Movement.cs" />
       </list>
     </option>
   </component>
@@ -80,6 +80,8 @@
       <updated>1587950680737</updated>
       <workItem from="1587950766262" duration="3918000" />
       <workItem from="1587959079586" duration="7456000" />
+      <workItem from="1588018297757" duration="903000" />
+      <workItem from="1588021447027" duration="3345000" />
     </task>
     <servers />
   </component>
