@@ -10,6 +10,7 @@
           <e p="Fair Use.txt" t="Include" />
         </e>
         <e p="Scripts" t="Include">
+          <e p="CameraMove.cs" t="Include" />
           <e p="Movement.cs" t="Include" />
           <e p="RotateChair.cs" t="Include" />
         </e>

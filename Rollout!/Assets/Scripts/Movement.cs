@@ -18,7 +18,7 @@ public class Movement : MonoBehaviour
         float moveVert = Input.GetAxis("Vertical");
         
         Vector3 move = new Vector3(0f, 0f, moveVert);
-
-        rb.AddForce(move * speed);
+        Vector3 camDir = Camera.current.transform.TransformDirection(move);
+        rb.AddForce(camDir.normalized * speed);
     }
 }
