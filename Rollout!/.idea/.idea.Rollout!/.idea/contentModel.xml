@@ -6,11 +6,10 @@
     <e p="D:\CST-326-Final-Project\Rollout!" t="IncludeRecursive">
       <e p="Assembly-CSharp.csproj" t="IncludeRecursive" />
       <e p="Assets" t="Include">
-        <e p="Legal" t="Include">
-          <e p="Fair Use.txt" t="Include" />
-        </e>
         <e p="Scripts" t="Include">
+          <e p="Bullet.cs" t="Include" />
           <e p="CameraMove.cs" t="Include" />
+          <e p="GunShoot.cs" t="Include" />
           <e p="Movement.cs" t="Include" />
           <e p="RotateChair.cs" t="Include" />
         </e>

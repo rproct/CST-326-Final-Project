@@ -11,6 +11,7 @@ public class CameraMove : MonoBehaviour
     private float viewRange = 60f;
     private float roty = 0f;
 
+    //Sets the current camera to the front camera 
     private void Start()
     {
         cam1.enabled = true;
@@ -20,20 +21,23 @@ public class CameraMove : MonoBehaviour
 
     private void LateUpdate()
     {
+        //Swaps to the back camera when button is pressed
         if (Input.GetKeyDown(KeyCode.Space))
         {
             cam1.enabled = false;
             cam2.enabled = true;
             currentCam = cam2;
         }
-
+        
+        //Swaps to the front camera when button is released
         if (Input.GetKeyUp(KeyCode.Space))
         {
             cam1.enabled = true;
             cam2.enabled = false;
             currentCam = cam1;
         }
-
+        
+        //Rotates camera on X-axis
         roty += Input.GetAxis("Mouse Y");
         roty = Mathf.Clamp(roty, -1 * viewRange, viewRange);
 

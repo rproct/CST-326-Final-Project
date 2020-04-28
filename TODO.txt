@@ -3,16 +3,17 @@ Main Game
     Make Chair Move (DONE)
     Swivel Seat (DONE)
     Work on Camera (DONE)
-    Create Gun Model
-    Create Bullet
-    Write Gun Script
-    Write BulletTravel Script
-    Create Person Model
-    Wirte Script for Person like healthbar and onDeath listener
-    Create Level
-    Create Enemies prefabs which are the same as the player
+    Create Gun Model (DONE)
+    Create Bullet (DONE)
+    Write Gun Script (DONE)
+    Write BulletTravel Script (DONE, but script is for bullet to destroy itself)
+    Create Person Model (DONE)
+    Write Script for Person like healthbar and onDeath listener
+    Create Level(s)
+    Create Enemies prefabs which are the same as the player with different scripts
     Write Enemy scripts for:
         Movement
         Targeting
         Firing
+        Wave handling
     

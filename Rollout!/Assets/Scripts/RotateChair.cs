@@ -8,6 +8,8 @@ public class RotateChair : MonoBehaviour
     public float speed;
     private Transform t;
 
+    //This script rotates the chair and cameras on Y-axis
+    
     private void Start()
     {
         t = GetComponent<Transform>();

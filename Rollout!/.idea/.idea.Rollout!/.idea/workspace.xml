@@ -31,14 +31,18 @@
   <component name="HighlightingSettingsPerFile">
     <setting file="file://$PROJECT_DIR$/Assets/Scripts/RotateChair.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Assets/Scripts/CameraMove.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Assets/Scripts/GunShoot.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Assets/Scripts/Bullet.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Assets/Scripts/Movement.cs" root0="FORCE_HIGHLIGHTING" />
   </component>
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/Assets/Scripts/Movement.cs" />
-        <option value="$PROJECT_DIR$/Assets/Scripts/RotateChair.cs" />
         <option value="$PROJECT_DIR$/Assets/Scripts/CameraMove.cs" />
+        <option value="$PROJECT_DIR$/Assets/Scripts/RotateChair.cs" />
+        <option value="$PROJECT_DIR$/Assets/Scripts/Bullet.cs" />
+        <option value="$PROJECT_DIR$/Assets/Scripts/GunShoot.cs" />
+        <option value="$PROJECT_DIR$/Assets/Scripts/Movement.cs" />
       </list>
     </option>
   </component>
@@ -82,6 +86,7 @@
       <workItem from="1587959079586" duration="7456000" />
       <workItem from="1588018297757" duration="903000" />
       <workItem from="1588021447027" duration="3345000" />
+      <workItem from="1588028574301" duration="3411000" />
     </task>
     <servers />
   </component>
