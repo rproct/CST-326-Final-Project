@@ -1762,6 +1762,7 @@ GameObject:
   m_Component:
   - component: {fileID: 932074114}
   - component: {fileID: 932074116}
+  - component: {fileID: 932074117}
   - component: {fileID: 932074115}
   m_Layer: 0
   m_Name: Gun
@@ -1788,20 +1789,18 @@ Transform:
   m_Father: {fileID: 1757367875}
   m_RootOrder: 1
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
---- !u!138 &932074115
-FixedJoint:
+--- !u!114 &932074115
+MonoBehaviour:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 932074113}
-  m_ConnectedBody: {fileID: 498796460}
-  m_BreakForce: Infinity
-  m_BreakTorque: Infinity
-  m_EnableCollision: 0
-  m_EnablePreprocessing: 1
-  m_MassScale: 1
-  m_ConnectedMassScale: 1
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 4dfc795b95ddd284196ed4d2aa0b5463, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
 --- !u!54 &932074116
 Rigidbody:
   m_ObjectHideFlags: 0
@@ -1818,6 +1817,41 @@ Rigidbody:
   m_Interpolate: 0
   m_Constraints: 0
   m_CollisionDetection: 0
+--- !u!59 &932074117
+HingeJoint:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 932074113}
+  m_ConnectedBody: {fileID: 498796460}
+  m_Anchor: {x: 0.69, y: 0, z: 0}
+  m_Axis: {x: 1, y: 0, z: 0}
+  m_AutoConfigureConnectedAnchor: 1
+  m_ConnectedAnchor: {x: 0.22000012, y: 0.9293334, z: -0.54000044}
+  m_UseSpring: 0
+  m_Spring:
+    spring: 0
+    damper: 0
+    targetPosition: 0
+  m_UseMotor: 0
+  m_Motor:
+    targetVelocity: 0
+    force: 0
+    freeSpin: 1
+  m_UseLimits: 1
+  m_Limits:
+    min: -60
+    max: 60
+    bounciness: 0
+    bounceMinVelocity: 0
+    contactDistance: 0
+  m_BreakForce: Infinity
+  m_BreakTorque: Infinity
+  m_EnableCollision: 0
+  m_EnablePreprocessing: 1
+  m_MassScale: 1
+  m_ConnectedMassScale: 1
 --- !u!1 &963194225
 GameObject:
   m_ObjectHideFlags: 0
